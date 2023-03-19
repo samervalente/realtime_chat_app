@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Realtime Chat with Socket.io</h1>
+      <form class="infos" action="chat.html">
+        <h3>Choice your chat room</h3>
+        <select name="select_room" id="select_room">
+          <option value="-1">Selecione a sala</option>
+          <option value="javascript">Javascript</option>
+          <option value="java">Java</option>
+          <option value="c++">C++</option>
+        </select>
+        <h3>Now, enter your username</h3>
+        <input type="text" name="username" placeholder="username" required />
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </body>
+</html>

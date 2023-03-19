@@ -1,0 +1,64 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+.infos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+input {
+    height: 20px;
+    padding:8px;
+    outline: none;
+}
+
+button {
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(6, 167, 87);
+    border: none;
+    color: white;
+    transition: all linear 0.2s;
+}
+
+button:hover{
+    background-color: rgb(4, 136, 70);
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout {
+    background-color: red;
+}
+
+.area-msg {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    border: 1px solid rgb(63, 63, 63);
+    height: 300px;
+    border-radius: 5px;
+    padding:10px;
+    overflow-y: scroll;
+}
